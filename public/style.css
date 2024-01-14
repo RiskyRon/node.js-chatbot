@@ -1,0 +1,14 @@
+/* style.css */
+body { 
+  min-height: 100vh;
+  max-width: 80%;
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+}
+#chat {
+  flex-grow: 1;
+  overflow: auto;
+}
+

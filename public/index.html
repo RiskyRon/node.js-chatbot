@@ -1,0 +1,23 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chatbot UI</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link href="style.css" rel="stylesheet">
+</head>
+<body class="bg-gray-800 text-gray-100">
+  <div id="chat" class="p-4 flex flex-col space-y-4">
+    <!-- Chat messages will be added here dynamically -->
+  </div>
+  <div class="p-4 border-t-2 border-gray-700">
+    <form id="message-form" class="flex gap-4">
+      <input type="text" id="message-input" placeholder="Type your message here..." class="flex-grow p-2 rounded bg-gray-700 border border-gray-600 focus:border-blue-500 focus:outline-none" autocomplete="off">
+      <button type="submit" class="p-2 bg-blue-500 hover:bg-blue-600 rounded">Send</button>
+    </form>
+  </div>
+  <script src="src/chat.js"></script>
+</body>
+</html>
